@@ -2,6 +2,8 @@
 
     Stability: 3 - Stable
 
+**Source code**: [lib/child_process.js][]
+
 Node provides a tri-directional `popen(3)` facility through the
 `child_process` module.
 
@@ -532,4 +534,5 @@ These child Nodes are still whole new instances of V8. Assume at least 30ms
 startup and 10mb memory for each new Node. That is, you cannot create many
 thousands of them.
 
+[lib/child_process.js]: ../../../lib/child_process.js
 [EventEmitter]: events.html#events_class_events_eventemitter
